@@ -2,16 +2,17 @@ package ua.hillel.homework8;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(EnumColor.INFO);
-        System.out.println("Info");
 
-        System.out.println(EnumColor.DEBUG);
-        System.out.println("Debug");
+        MyLogger myLogger = new MyLogger();
 
-        System.out.println(EnumColor.WARN);
-        System.out.println("Warning");
+        myLogger.InfoLog();
+        myLogger.DebugLog();
+        myLogger.WarningLog();
+        myLogger.ErrorLog();
 
-        System.out.println(EnumColor.ERROR);
-        System.out.println("Error");
+
+
+
+
     }
 }
