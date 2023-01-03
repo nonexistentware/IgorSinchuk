@@ -22,7 +22,6 @@ public class UserNameTest {
         driver.get("https://the-internet.herokuapp.com/hovers");
 
 
-//        actions.moveToElement(driver.findElement(By.cssSelector(".div.figure"))).build().perform();
 
         List<WebElement> figures = driver.findElements(By.cssSelector(".figure"));
 
