@@ -1,23 +1,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite1" verbose="1" >
-    <test name="LoginTest" >
+    <test name="Test 1" parallel="classes" thread-count="4">
         <classes>
-            <class name="ua.hillel.tests.homework15.LoginTest"></class>
+            <class name="ua.hillel.tests.homework29.StoreTestRunner"></class>
         </classes>
     </test>
-
-    <test name="FailedLogin">
-        <classes>
-            <class name="ua.hillel.tests.homework15.LoginFailedTest"></class>
-        </classes>
-    </test>
-
-    <test name="ParamTest" >
-       <parameter name="firstParam" value="test1234"></parameter>
-       <parameter name="secondParam" value="random-2"></parameter>
-        <classes>
-            <class name="ua.hillel.tests.homework15.ParamTest"></class>
-        </classes>
-    </test>
+    
 </suite>
