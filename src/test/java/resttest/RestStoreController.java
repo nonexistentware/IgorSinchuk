@@ -1,9 +1,9 @@
-package ua.hillel.tests.resttest;
+package resttest;
 
 import com.google.gson.Gson;
 import okhttp3.*;
 import org.json.JSONObject;
-import ua.hillel.tests.resttest.model.StoreModel;
+import resttest.model.StoreModel;
 
 
 import java.io.IOException;

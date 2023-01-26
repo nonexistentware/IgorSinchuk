@@ -1,4 +1,4 @@
-package ua.hillel.tests.resttest.model;
+package resttest.model;
 
 import lombok.Data;
 

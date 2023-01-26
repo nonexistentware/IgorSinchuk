@@ -1,4 +1,4 @@
-package ua.hillel.tests.resttest;
+package resttest;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
