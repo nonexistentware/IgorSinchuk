@@ -3,21 +3,7 @@
 <suite name="Suite1" verbose="1" >
     <test name="LoginTest" >
         <classes>
-            <class name="ua.hillel.tests.homework15.LoginTest"></class>
-        </classes>
-    </test>
-
-    <test name="FailedLogin">
-        <classes>
-            <class name="ua.hillel.tests.homework15.LoginFailedTest"></class>
-        </classes>
-    </test>
-
-    <test name="ParamTest" >
-       <parameter name="firstParam" value="test1234"></parameter>
-       <parameter name="secondParam" value="random-2"></parameter>
-        <classes>
-            <class name="ua.hillel.tests.homework15.ParamTest"></class>
+            <class name="ua.hillel.tests.RestTestJen.StoreRunnerTest"></class>
         </classes>
     </test>
 </suite>
