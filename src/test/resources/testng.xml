@@ -3,7 +3,7 @@
 <suite name="Suite1" verbose="1" >
     <test name="Test 1" parallel="classes" thread-count="4">
         <classes>
-            <class name="ua.hillel.tests.resttest.RestTestRunner"></class>
+            <class name="ua.hillel.RestTest.RestTestRunner"></class>
         </classes>
     </test>
     
