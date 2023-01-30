@@ -4,6 +4,8 @@ import com.google.gson.Gson;
 import okhttp3.*;
 import org.json.JSONObject;
 import ua.hillel.RestTestJen.model.Store;
+import ua.hillel.tests.RestTestJen.model.Store;
+
 
 
 import java.io.IOException;
