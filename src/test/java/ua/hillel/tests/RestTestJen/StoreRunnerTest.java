@@ -2,7 +2,7 @@ package ua.hillel.tests.RestTestJen;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import ua.hillel.tests.RestTestJen.model.Store;
+import ua.hillel.RestTestJen.model.Store;
 
 import java.io.IOException;
 
